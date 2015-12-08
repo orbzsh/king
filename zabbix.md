@@ -1,7 +1,9 @@
 ####agent模式
 主动模式（agent向server提交数据）
+
 [active check system.run is not supported](https://support.zabbix.com/browse/ZBX-1256)
 [system.run does not work in Linux](https://www.zabbix.com/forum/showthread.php?t=12352)
+
 ```
 在指定的主机上运行命令
 system.run[command,<mode>]

@@ -450,12 +450,21 @@ exit 0
 ```
 ####PG参考资料
 [官方中文手册](http://www.postgres.cn/docs/9.4/index.html)
+
 [德哥技术博客](http://blog.163.com/digoal@126/)
+
 [谭峰技术博客](http://francs3.blog.163.com/)
+
 [陈立群技术博客](http://my.oschina.net/Kenyon)
+
 [唐成技术博客](http://blog.osdba.net/)
+
 [大肚熊技术博客](http://www.cnblogs.com/daduxiong/category/257029.html)
+
 [beigang技术博客](http://blog.csdn.net/beiigang)
+
 [Stepgen_Liu技术博客](http://www.cnblogs.com/stephen-liu74/category/343171.html)
+
 [David_Tang技术博客](http://www.cnblogs.com/mchina/tag/postgresql/)
+
 [zhiyong yang技术博客](http://dreamer-yzy.github.io/tags/PostgreSQL/)
