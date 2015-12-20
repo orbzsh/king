@@ -63,5 +63,31 @@ twemproxy高可用方案需要keepalived
 ```
 ######Cluster
 
+######redis全量同步(sync)
+主从同步流程
+
+1. 每次slave连接到master后,master bgsave到rdb文件
+2. master发送rdb文件到客户端
+3. slave收到rdb文件后复制
+4. master开始向slave发送写命令
+
+slave同步过程中的状态
+
+1. redis_repl_none
+2. redis_repl_connect
+3. redis_repl_connecting
+4. redis_repl_receive_pong
+5. redis_repl_transfer
+6. redis_repl_connected
+
+master同步过程中的状态
+
+1. redis_repl_wait_bgsave_start
+2. redis_repl_wait_bgsave_end
+3. redis_repl_send_bulk
+4. redis_repl_online
+
+######redis增量同步(psync)
+
 ####参考资料
 [redis资料汇总](http://blog.nosqlfan.com/html/3537.html)
